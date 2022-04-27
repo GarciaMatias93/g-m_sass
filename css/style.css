@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  background-image: linear-gradient(to bottom, #878b8c, #3a3c3d);
+  width: 350px;
+  height: 600px;
+  padding: 2rem;
+  text-align: center;
+  color: #658cd3;
+  margin: 0 auto;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav li {
+  display: flex;
+  margin-right: 2rem;
+}
+nav li a {
+  text-decoration: none;
+  color: #658cd3;
+}
+nav li a:hover {
+  color: violet;
+}
+
+/*# sourceMappingURL=style.css.map */
