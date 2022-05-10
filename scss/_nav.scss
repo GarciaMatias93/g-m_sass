@@ -1,26 +1,3 @@
-nav {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  ul {
-    list-style: none;
-    display: flex;
-  }
-
-  li {
-    display: flex;
-    margin-right: 2rem;
-
-    a {
-      text-decoration: none;
-      color: $primaryColor;
-
-      &:hover {
-        color: violet;
-      }
-    }
-  }
+.nav {
+  background-color: aqua;
 }
